@@ -1,0 +1,33 @@
+@charset "UTF-8";
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  padding: 3%;
+  color: black;
+  text-align: center;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: white;
+  background-image: url("../imgsdinamec/Pattern-desconstruído-LARANJA---sem-fundo (2) - opaco.png"); }
+
+.fa-heart {
+  color: #e45412; }
+
+.footer-titulo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 9vh; }
+
+.texto-footer {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3vh;
+  text-align: justify; }

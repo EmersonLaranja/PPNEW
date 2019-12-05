@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.title-serviços {
+  color: #f39200;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10vh;
+  text-shadow: 2px 2px #000; }
+
+.servicos img {
+  width: 50%;
+  border-radius: 90%; }
+
+.bg-serviços {
+  background-color: #000;
+  background-image: url("../imgsdinamec/Pattern-desconstruído-LARANJA---sem-fundo (2).png"); }
+
+.card-title {
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif; }
+
+.bgCard {
+  background: rgba(243, 146, 0, 0.9);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 3vh;
+  text-shadow: 2px 2px #000;
+  font-weight: bold; }
