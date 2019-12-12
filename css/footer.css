@@ -21,13 +21,25 @@ footer {
   color: #e45412; }
 
 .footer-titulo {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
   font-weight: bold;
   font-size: 9vh; }
 
+.alinhamento {
+  padding-top: 9vh; }
+
 .texto-footer {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-style: italic;
   font-size: 3vh;
   text-align: justify; }
+
+.footer-info {
+  width: 100%;
+  text-align: right;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
