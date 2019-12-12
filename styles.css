@@ -1,0 +1,217 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700");
+.title-serviços {
+  color: #f39200;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10vh;
+  text-shadow: 2px 2px #000; }
+
+.servicos img {
+  width: 50%;
+  border-radius: 90%; }
+
+.card-title {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 7vh;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px #000; }
+
+.card-text {
+  text-shadow: 1px 1px #000; }
+
+.bgCard {
+  background: rgba(243, 146, 0, 0.8);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 3vh; }
+
+.zoom {
+  overflow: hidden; }
+
+.zoom img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.zoom:hover img {
+  -moz-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25); }
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  padding: 3%;
+  color: black;
+  text-align: center;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: white;
+  background-image: url("../imgsdinamec/Pattern-desconstruído-LARANJA---sem-fundo (2) - opaco.png"); }
+
+.fa-heart {
+  color: #e45412; }
+
+.footer-titulo {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 9vh; }
+
+.alinhamento {
+  padding-top: 9vh; }
+
+.texto-footer {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3vh;
+  text-align: justify; }
+
+.footer-info {
+  width: 100%;
+  text-align: right;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.logo-nav {
+  width: 25vh;
+  margin: 0; }
+
+.bg-sobrenos {
+  background-color: #6C7989; }
+
+.title-sobrenos {
+  color: #f39200;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10vh;
+  text-shadow: 2px 2px #000;
+  text-align: center; }
+
+.sobrenos img {
+  width: 50%; }
+
+.sobrenos h2 {
+  color: #f39200;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 8vh;
+  text-shadow: 2px 2px #000;
+  text-align: center; }
+
+.sobrenos p {
+  color: white;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3vh;
+  text-shadow: 1px 1px #000;
+  text-align: center; }
+
+.sobrenos ul li {
+  color: white;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3vh;
+  text-shadow: 1px 1px #000;
+  text-align: center;
+  list-style: none; }
+
+.rotate:hover {
+  animation: rotation 2s infinite linear; }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(359deg); } }
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%; }
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #FFF; }
+
+.fundo {
+  color: white;
+  background: rgba(38, 45, 100, 0.75); }
+
+.brilho {
+  filter: brightness(45%); }
+
+.testa {
+  color: black;
+  width: 100vw;
+  height: 100vw; }
+
+.bg-contato {
+  background-color: #6C7989; }
+
+.title-contato {
+  color: white;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10vh;
+  text-shadow: 2px 2px #000; }
+
+.texto-icones-contatos {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-shadow: 2px 2px #000;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3vh;
+  text-align: justify; }
+
+.invalid-feedback {
+  display: none;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 90%;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000; }
+
+.rotaciona {
+  transform: rotate(180deg); }
+
+.poligono {
+  background: none;
+  transform: translateY(12px); }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  background-image: url("../imgsdinamec/Pattern-desconstruído-LARANJA---sem-fundo (2).png");
+  background-color: rgba(0, 0, 0, 0.95); }
+
+.bg-dark {
+  background-color: black !important; }
+
+.fa-facebook {
+  font-size: 4.5em;
+  padding: .5rem;
+  color: black; }
+
+.fa-instagram {
+  font-size: 4.5em;
+  padding: .5rem;
+  color: black; }
