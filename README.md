@@ -1,7 +1,7 @@
 # :tangerine: Website Dinamec Jr.
 ### Aqui vou descrever o meu primeiro projeto web ~~e também meu primeiro contato com HTML,CSS e JS~~
 ---
-instale o [node](https://nodejs.org/en/download/) e posteriormente siga os comandos: 
+Instale o [node](https://nodejs.org/en/download/) e posteriormente siga os comandos: 
 
 ```JavaScript
 //asdas
@@ -14,4 +14,4 @@ npm i gulp browser-sync gulp-sass --save-dev
 npm i jquery popper.js bootstrap --save
 ```
 
->
+>Amanhã eu continuo kk
