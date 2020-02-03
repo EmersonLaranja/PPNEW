@@ -3,8 +3,7 @@
 ---
 Instale o [node](https://nodejs.org/en/download/) e posteriormente siga os comandos: 
 
-```javascript
-
+```
 npm init -y
 
 //dependências para desenvolvedor
