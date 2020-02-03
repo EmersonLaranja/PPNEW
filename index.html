@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ANALISAR  -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -18,7 +20,7 @@
 <body>
 
     <!---------------------------------COMEÇO DA BARRA DE NAVEGAÇÃO-------------------------------------->
-    <nav class="bg-nav navbar navbar-expand-md navbar-expand-xl navbar-dark sticky-top text-center">
+    <nav id="nav" class="bg-nav navbar navbar-expand-md navbar-expand-xl navbar-dark sticky-top text-center" onscroll="ChangeOpacity">
         <div class="container-fluid">
             <a class="navbar-brand wow zoomIn"data-wow-duration=.5s href="#"><img src="assets/imgs/Logo da Dinamec com borda.png" width=165vw
                     alt="logo da Dinamec"></a>
@@ -471,7 +473,7 @@
     <footer id="footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-md-6 align-items-stretch">
+                <div class="col-lg-6 col-md-12 align-items-stretch">
 
                     <img src="assets/imgs/Logo da Dinamec sem borda.png" alt="Logo Dinamec Júnior" height=50%
                         width="auto" class="img-fluid wow bounceInUp">
@@ -486,11 +488,12 @@
                         sexta, de 9h as 17h</p>
                 </div>
 
-                <div class="col-12 col-md-6 align-items-stretch">
-                    <h2 class="mt-2 wow flash">ACOMPANHE A DINAMEC JR.</h2>
+
+                <div class="col-lg-6 col-md-12 align-items-stretch">
+                    <h2 class="mt-2 wow flash testando" data-wow-delay="1s">ACOMPANHE A DINAMEC JR.</h2>
                     <a href="https://pt-br.facebook.com/pg/dinamecjr/posts/" target="blank"><i
-                            class="fab fa-facebook  wow tada"></i></a>
-                    <a href="https://www.instagram.com/dinamecjr/" target="blank"><i class="fab fa-instagram  wow tada"></i></a>
+                            class="fab fa-facebook  wow tada" data-wow-delay="1s"></i></a>
+                    <a href="https://www.instagram.com/dinamecjr/" target="blank" ><i class="fab fa-instagram  wow tada"data-wow-delay="1s"></i></a>
                 </div>
             </div>
     </footer>
@@ -498,7 +501,7 @@
     <nav class="navbar navbar-dark bg-dark d-flex">
         <div class="container-fluid">
             <div class="footer-info">
-                Desenvolvido com <p class="fa fa-heart wow zoomIn"></p> por
+                Desenvolvido com <p class="fa fa-heart wow zoomIn"data-wow-delay="1s"></p> por
                 <a href="https://ctjunior.com.br/ct/" target="blank"><img
                         src="assets/imgs/Logo da CT Branca.png" alt="" width="90rem" class="ml-3 wow zoomIn"></a>
             </div>
@@ -512,6 +515,7 @@
     <script>
         new WOW().init();
         </script>
+    <script src="nav.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
