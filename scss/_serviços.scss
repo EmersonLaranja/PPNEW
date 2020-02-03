@@ -3,7 +3,7 @@
     color: rgba(243,146,0,1);
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    font-size: 10vh;
+    font-size: 4rem;
     text-shadow: 2px 2px #000;
   }
 
@@ -11,18 +11,20 @@
     color: white;
     font-weight: bold;
     text-align: center;
-    font-size: 7vh;
+    font-size: 3.7rem;
     font-family: 'Roboto', sans-serif;
     text-shadow: 1px 1px #000;
   }
 
   img{
-    width:50%;
+    width:25rem;
     border-radius: 90%;
   }
 
   p{
     text-shadow: 1px 1px #000;
+    font-size: 1.5rem;
+    text-align: center;
   }
 
   .bgCard{
@@ -45,9 +47,9 @@
   }
 
   .zoom:hover img{
-    -moz-transform:scale(1.25);
-    -webkit-transform: scale(1.25);
-    transform: scale(1.25);
+    -moz-transform:scale(1.19);
+    -webkit-transform: scale(1.19);
+    transform: scale(1.19);
   }
 
 }
