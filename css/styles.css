@@ -16,6 +16,11 @@
   width: 100%;
   height: 100%; }
 
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
 .carousel-indicators li {
   border-radius: 50%;
   width: 12px;
@@ -48,6 +53,10 @@
     font-style: italic;
     font-size: 3vh;
     text-align: justify; }
+  #contato button {
+    background-color: #606a76; }
+  #contato button:hover {
+    background-color: #454c54; }
 
 .invalid-feedback {
   display: none;
@@ -92,6 +101,14 @@
   padding-right: 15px;
   padding-left: 15px; }
 
+@media (max-width: 700px) {
+  .fa-heart {
+    color: red; } }
+
+@media (min-width: 1000px) {
+  .fa-heart {
+    color: blue; } }
+
 .rotaciona {
   transform: rotate(180deg); }
 
@@ -99,13 +116,16 @@
   background: none;
   transform: translateY(0px); }
 
+#Projetos img {
+  height: auto; }
+
 #Projetos h1 {
   text-transform: uppercase;
   padding-top: 5%;
   color: #FFF;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
-  font-size: 10vh;
+  font-size: 4rem;
   text-shadow: 2px 2px #000;
   background-color: #f39200;
   margin: 0;
@@ -126,23 +146,25 @@
   color: #f39200;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
-  font-size: 10vh;
+  font-size: 4rem;
   text-shadow: 2px 2px #000; }
 
 #serviços h2 {
   color: white;
   font-weight: bold;
   text-align: center;
-  font-size: 7vh;
+  font-size: 3.7rem;
   font-family: 'Roboto', sans-serif;
   text-shadow: 1px 1px #000; }
 
 #serviços img {
-  width: 50%;
+  width: 25rem;
   border-radius: 90%; }
 
 #serviços p {
-  text-shadow: 1px 1px #000; }
+  text-shadow: 1px 1px #000;
+  font-size: 1.5rem;
+  text-align: center; }
 
 #serviços .bgCard {
   background: rgba(243, 146, 0, 0.8);
@@ -160,21 +182,21 @@
   transition: all 0.3s; }
 
 #serviços .zoom:hover img {
-  -moz-transform: scale(1.25);
-  -webkit-transform: scale(1.25);
-  transform: scale(1.25); }
+  -moz-transform: scale(1.19);
+  -webkit-transform: scale(1.19);
+  transform: scale(1.19); }
 
 .bg-sobrenos {
   background-color: #6C7989; }
 
 #sobrenos img {
-  width: 50%; }
+  width: 17em; }
 
 #sobrenos h1 {
   color: #f39200;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
-  font-size: 10vh;
+  font-size: 3.5rem;
   text-shadow: 2px 2px #000;
   text-align: center; }
 
@@ -182,7 +204,7 @@
   color: #f39200;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
-  font-size: 8.5vh;
+  font-size: 2.5rem;
   text-shadow: 2px 2px #000;
   text-align: center;
   margin-top: 1rem; }
@@ -191,7 +213,7 @@
   color: white;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
-  font-size: 3vh;
+  font-size: 1.5em;
   text-shadow: 1px 1px #000;
   text-align: center;
   margin-right: auto; }
@@ -200,7 +222,7 @@
   color: white;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
-  font-size: 3vh;
+  font-size: 1.5em;
   text-shadow: 1px 1px #000;
   text-align: center;
   list-style: none; }
@@ -221,11 +243,16 @@
     opacity: 1; } }
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  height: 100%;
+  width: 100%; }
 
 body {
   background-image: url("../assets/imgs/Pattern-desconstruído-LARANJA---sem-fundo (2).png");
-  background-color: black; }
+  background-color: black;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%; }
 
 .bg-dark {
   background-color: black !important; }
