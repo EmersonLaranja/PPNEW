@@ -6,7 +6,7 @@
         color:#FFF;
         font-weight: bold;
         font-family: 'Poppins', sans-serif;
-        font-size: 10vh;
+        font-size: 5rem;
         text-shadow: 2px 2px #000;
         background-color: rgba(243,146,0,1);
         margin: 0;
@@ -23,6 +23,42 @@
     }
 
    
+}
+
+@media(max-width:700px){
+    #Projetos{
+    
+        h1{
+            text-transform: uppercase;
+            padding-top: 5%;
+            color:#FFF;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+            font-size: 3.5rem;
+            text-shadow: 2px 2px #000;
+            background-color: rgba(243,146,0,1);
+            margin: 0;
+            text-align: center;
+        }
+        
+        p{
+            text-align: left;
+            padding: 10% 0 15% 0;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 1.5rem;
+            transform: translate(-100%);
+        }
+
+        img{
+            margin-top: 50px;
+            margin-left:16px;
+            height: auto;
+            width: 16rem;
+        }    
+       
+    }
 }
 
 
