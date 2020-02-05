@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+
 <head>
     <meta charset="UTF-8">
-    <!-- ANALISAR  -->
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -20,7 +18,7 @@
 <body>
 
     <!---------------------------------COMEÇO DA BARRA DE NAVEGAÇÃO-------------------------------------->
-    <nav id="nav" class="bg-nav navbar navbar-expand-md navbar-expand-xl navbar-dark sticky-top text-center" onscroll="ChangeOpacity">
+    <nav class="bg-nav navbar navbar-expand-md navbar-expand-xl navbar-dark sticky-top text-center">
         <div class="container-fluid">
             <a class="navbar-brand wow zoomIn"data-wow-duration=.5s href="#"><img src="assets/imgs/Logo da Dinamec com borda.png" width=165vw
                     alt="logo da Dinamec"></a>
@@ -28,9 +26,10 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
+
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link wow fadeInUp"data-wow-duration=.6s href="#sobrenos">Sobre nós</a>
+                        <a class="nav-link wow fadeInUp" data-wow-duration=.6s href="#sobrenos">Sobre nós</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link wow fadeInUp"data-wow-duration=.6s data-wow-delay=.3s href="#serviços">Serviços</a>
@@ -42,7 +41,6 @@
                         <a class="nav-link wow fadeInUp"data-wow-duration=.6s data-wow-delay=.5s href="#contato">Contato</a>
                     </li>
                 </ul>
-
             </div>
         </div>
     </nav>
@@ -63,7 +61,7 @@
             <div class="carousel-item active">
                 <img src="assets/imgs/placa mãe.jpg" class="img-fluid w-100 brilho">
                 <div class="carousel-caption">
-                    <img src="assets/imgs/Logo da Dinamec sem borda.png"  class="img-fluid logo-carousel animated fadeInDown"
+                    <img src="assets/imgs/Logo da Dinamec sem borda.png" width="90%" class="img-fluid logo-carousel animated fadeInDown"
                         alt="Logo da Dinamec sem bordas">
 
                     <p class="lead mt-5 animated fadeInUp">Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eget
@@ -223,10 +221,10 @@
             <div class="col-lg-6 col-sm-12 servicos d-flex align-items-stretch">
                 <div class="card bgCard wow fadeIn zoom">
                     <div class="card-body text-center">
-                        <h2>Desenho Técnico</h2>
-                        <img class="img-fluid wow fadeInRightBig" src="assets/imgs/Paquimetro.png"
+                        <h2 class="mb-3">Desenho Técnico</h2>
+                        <img class="img-fluid mb-5 mt-3 wow fadeInRightBig" src="assets/imgs/Paquimetro.png"
                             alt="">
-                        <p class="wow fadeInUp">Desenho Técnico, contemplando os tipos 2D e 3D de acordo com normas da
+                        <p class="mb-3 wow fadeInUp">Desenho Técnico, contemplando os tipos 2D e 3D de acordo com normas da
                             ABNT. Esse desenho nos dá o detalhamento e diferentes vistas de cada componente, o que
                             facilita a compreensão das peças, otimiza processos de produção e montagem e evita erros na
                             linha produtiva. </p>
@@ -237,9 +235,9 @@
             <div class="col-lg-6 col-sm-12 servicos d-flex align-items-stretch">
                 <div class="card bgCard wow fadeIn zoom">
                     <div class="card-body text-center">
-                        <h2>PMOC</h2>
-                        <img class="img-fluidwow fadeInLeftBig" src="assets/imgs/pmocquadrada.png" alt="">
-                        <p class="wow fadeInUp">Manutenção, Operação e Controle do sistema de condicionamento de ar. A
+                        <h2 class="mb-3">PMOC</h2>
+                        <img class="img-fluid mb-5 mt-3 wow fadeInLeftBig" src="assets/imgs/pmocquadrada.png" alt="">
+                        <p class="mb-3 wow fadeInUp">Manutenção, Operação e Controle do sistema de condicionamento de ar. A
                             finalidade de elaborar o plano é que os equipamentos e estruturas envolvidos no processo de
                             climatização estejam livres de fungos, bactérias, ácaros, entre outros. O PMOC é exigido por
                             Lei para sistemas com capacidade de mais de 60000Btu/h.</p>
@@ -275,15 +273,12 @@
                 <div class="container-fluid">
                     <div class="row">
 
-                        <div class="col-lg-5 col-sm-12 ">
+                        <div class="col-lg-5 col-sm-10 ">
                             <img src="assets/imgs/pmocquadrada.png" class="rounded-circle animated fadeInLeft" alt="">
                         </div>
 
-                        <div class="col-lg-6 col-sm-12 ">
-                            <p class="animated fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Phasellus sit amet interdum justo. Donec elit ex, sollicitudin ac luctus in, gravida
-                                eget urna. Phasellus mattis risus luctus massa imperdiet, consectetur sodales nibh
-                                pretium. Cras tristique efficitur cursus</p>
+                        <div class="col-lg-6 col-sm-10 ">
+                            <p class="paragrafo-projetos animated fadeInUp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, accusantium!</p>
                         </div>
                     </div>
                 </div>
@@ -298,10 +293,7 @@
                         </div>
 
                         <div class="col-lg-6  col-sm-12">
-                            <p class="animated fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Phasellus sit amet interdum justo. Donec elit ex, sollicitudin ac luctus in, gravida
-                                eget urna. Phasellus mattis risus luctus massa imperdiet, consectetur sodales nibh
-                                pretium. Cras tristique efficitur cursus</p>
+                            <p class="paragrafo-projetos animated fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, similique?</p>
                         </div>
                     </div>
                 </div>
@@ -423,12 +415,13 @@
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.688709611423!2d-40.30757768546296!3d-20.271740954260956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb81806441d0d27%3A0x12a0558433257e4d!2sCT%20Junior%20-%20Consultoria%20em%20Engenharia!5e0!3m2!1spt-BR!2sbr!4v1575667219297!5m2!1spt-BR!2sbr"
                     width="100%" height="225" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
-                <p class="ml-2 mb-3 wow fadeInUp"data-wow-delay=".5s"><img src="assets/imgs/Mapa.png" width="5%"
-                        alt="icone de um relogio para representar o horario de funcionamento da empresa">Lorem ipsum dolor sit amet.</p>
-                <p class="ml-2 mb-3 wow fadeInUp"data-wow-delay=".6s"><img src="assets/imgs/telefone.svg"
+                <p class="wow fadeInUp"data-wow-delay=".5s"><img src="assets/imgs/Mapa.png" width="5%"
+                        alt="icone de um relogio para representar o horario de funcionamento da empresa"> asduhsaodoj
+                    eaijasojods ojdsao</p>
+                <p class="wow fadeInUp"data-wow-delay=".6s"><img src="assets/imgs/telefone.svg"
                         width="5%" alt="icone de um relogio para representar o horario de funcionamento da empresa">
                     (27) 9 9999-9999</p>
-                <p class="ml-2 mb-3 wow fadeInUp"data-wow-delay=".7s"><img src="assets/imgs/arroba.svg" width="5%"
+                <p class="wow fadeInUp"data-wow-delay=".7s"><img src="assets/imgs/arroba.svg" width="5%"
                         alt="icone de um relogio para representar o horario de funcionamento da empresa">
                     dinamecjr@gmail.com</p>
 
@@ -472,9 +465,9 @@
     <footer id="footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6 col-md-12 align-items-stretch">
+                <div class="col-12 col-md-6 align-items-stretch">
 
-                    <img id="logoFooter" src="assets/imgs/Logo da Dinamec sem borda.png" alt="Logo Dinamec Júnior" height=50%
+                    <img src="assets/imgs/Logo da Dinamec sem borda.png" alt="Logo Dinamec Júnior" height=50%
                         width="auto" class="img-fluid wow bounceInUp">
 
                     <p class="mt-2 wow fadeInUp" data-wow-delay=".3s">A Dinamec Jr. é uma empresa fundada em 2018 por alunos do curso de
@@ -487,12 +480,11 @@
                         sexta, de 9h as 17h</p>
                 </div>
 
-
-                <div class="col-lg-6 col-md-12 align-items-stretch">
-                    <h2 class="mt-2 wow flash" data-wow-delay="1s">ACOMPANHE A DINAMEC JR.</h2>
-                    <a  href="https://pt-br.facebook.com/pg/dinamecjr/posts/" target="blank"><i 
-                            class="fab fa-facebook  wow tada" data-wow-delay="1s"></i></a>
-                    <a href="https://www.instagram.com/dinamecjr/" target="blank" ><i class="fab fa-instagram  wow tada"data-wow-delay="1s"></i></a>
+                <div class="col-12 col-md-6 align-items-stretch">
+                    <h2 class=" wow flash">ACOMPANHE A DINAMEC JR.</h2>
+                    <a href="https://pt-br.facebook.com/pg/dinamecjr/posts/" target="blank"><i
+                            class="fab fa-facebook  wow tada"></i></a>
+                    <a href="https://www.instagram.com/dinamecjr/" target="blank"><i class="fab fa-instagram  wow tada"></i></a>
                 </div>
             </div>
     </footer>
@@ -500,12 +492,14 @@
     <nav class="navbar navbar-dark bg-dark d-flex">
         <div class="container-fluid">
             <div class="footer-info">
-                Desenvolvido com <p class="fa fa-heart wow zoomIn"data-wow-delay="1s"></p> por
+                Desenvolvido com <p class="fa fa-heart wow zoomIn"></p> por
                 <a href="https://ctjunior.com.br/ct/" target="blank"><img
-                        src="assets/imgs/Logo da CT Branca.png" alt="" width="90rem" class="ml-3 wow zoomIn"></a>
+                        src="assets/imgs/Logo da CT Branca.png" alt=""  width="90rem" class="wow zoomIn"></a>
             </div>
         </div>
     </nav>
+    
+    
 
 
     <!--------------------FIM DO FOOTER-------------------------->
@@ -514,10 +508,10 @@
     <script>
         new WOW().init();
         </script>
-    <script src="nav.js"></script>
+    
     <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
 </body>
 
 </html>
