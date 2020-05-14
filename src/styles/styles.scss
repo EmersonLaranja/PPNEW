@@ -1,0 +1,38 @@
+$Primary-Color: rgba(243, 146, 0, 1);
+$Secondary-Color: #fff;
+$Tertiary-Color: rgba(0, 0, 0, 1);
+
+@import "navbar";
+@import "carousel";
+@import "contato";
+@import "footer";
+@import "poligonos";
+@import "projetos";
+@import "serviços";
+@import "sobrenos";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("../assets/imgs/Pattern-desconstruído-LARANJA---sem-fundo\ \(2\).png");
+    background-color: $Tertiary-Color;
+}
+
+.bg-dark {
+    background-color: $Tertiary-Color !important;
+}
+
+.fa-facebook {
+    font-size: 4.5em;
+    padding: 0.5rem;
+    color: $Tertiary-Color;
+}
+.fa-instagram {
+    font-size: 4.5em;
+    padding: 0.5rem;
+    color: $Tertiary-Color;
+}
+
+// If you use .navbar with .smooth-scroll, use this code to avoid overlapping navigation to a header.
