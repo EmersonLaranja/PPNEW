@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
 .nav-link {
   font-size: 1.1rem;
   font-weight: 500;
@@ -7,8 +7,8 @@
 }
 
 .nav-link:hover {
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   color: rgba(228, 84, 18, 0.5) !important;
 }
 
@@ -39,7 +39,7 @@ sticky-top {
 
 .brilho {
   -webkit-filter: brightness(45%);
-          filter: brightness(45%);
+  filter: brightness(45%);
 }
 
 .bg-carousel {
@@ -47,7 +47,7 @@ sticky-top {
 }
 
 #contato {
-  background-color: #6C7989;
+  background-color: #6c7989;
 }
 
 #contato h1 {
@@ -89,7 +89,7 @@ sticky-top {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   background-color: #fff;
-  background-image: url("../assets/imgs/Pattern laranja opaco.png");
+  background-image: url('../assets/imgs/Pattern laranja opaco.png');
 }
 
 #footer h2 {
@@ -108,38 +108,28 @@ sticky-top {
   text-align: justify;
 }
 
-.fa-heart {
-  color: #e45412;
-}
-
 .footer-info {
   width: 100%;
   text-align: right;
   padding-right: 15px;
   padding-left: 15px;
+  color: #fff;
 }
 
-@media (max-width: 700px) {
-  .fa-heart {
-    color: red;
-  }
-}
-
-@media (min-width: 1000px) {
-  .fa-heart {
-    color: blue;
-  }
+.fa,
+.fa-heart {
+  color: #e45412;
 }
 
 .rotaciona {
   -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .poligono {
   background: none;
   -webkit-transform: translateY(0px);
-          transform: translateY(0px);
+  transform: translateY(0px);
 }
 
 #Projetos h1 {
@@ -166,6 +156,11 @@ sticky-top {
 
 .bg-poligono-projetos {
   background-color: #f39200;
+}
+
+.carousel-container {
+  max-width: 80%;
+  height: 80%;
 }
 
 #serviços h1 {
@@ -219,7 +214,7 @@ sticky-top {
 }
 
 .bg-sobrenos {
-  background-color: #6C7989;
+  background-color: #6c7989;
 }
 
 #sobrenos img {
@@ -266,29 +261,29 @@ sticky-top {
 }
 
 .rotate:hover {
-  -webkit-animation: rotation 1s infinite  linear;
-          animation: rotation 1s infinite  linear;
+  -webkit-animation: rotation 1s infinite linear;
+  animation: rotation 1s infinite linear;
 }
 
 @-webkit-keyframes rotation {
   from {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
     -webkit-transform: rotate(179deg);
-            transform: rotate(179deg);
+    transform: rotate(179deg);
   }
 }
 
 @keyframes rotation {
   from {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
     -webkit-transform: rotate(179deg);
-            transform: rotate(179deg);
+    transform: rotate(179deg);
   }
 }
 
@@ -315,7 +310,7 @@ html {
 }
 
 body {
-  background-image: url("../assets/imgs/Pattern-desconstruído-LARANJA---sem-fundo (2).png");
+  background-image: url('../assets/imgs/Pattern-desconstruído-LARANJA---sem-fundo (2).png');
   background-color: black;
 }
 
